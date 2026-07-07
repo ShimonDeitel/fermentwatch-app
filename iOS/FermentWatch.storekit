@@ -1,0 +1,42 @@
+{
+  "identifier" : "fermentwatch",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "fermentwatch_group",
+      "localizations" : [],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "fermentwatch_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Day-count reminders and unlimited active ferment tracking",
+              "displayName" : "Ferment Watch Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.ferment.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Ferment Watch Pro Monthly",
+          "subscriptionGroupID" : "fermentwatch_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
